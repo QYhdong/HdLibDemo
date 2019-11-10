@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HdLibDemo_Example' do
+  pod 'HdLibDemo', :path => '../'
+
+  target 'HdLibDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
